@@ -1,4 +1,10 @@
+@use '../../styles/variables' as variables;
+
 .header {
     font-weight: 900;
-    color: red;
+    background-color: variables.$menu-background-color;
+
+    .brand{
+        padding: 1rem;
+    }
 }
