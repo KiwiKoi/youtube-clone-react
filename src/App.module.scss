@@ -1,0 +1,8 @@
+.appComponent{
+    display: flex;
+    flex-direction: column;
+    .mainContent{
+        display:flex;
+        flex-direction: row;
+    }
+}

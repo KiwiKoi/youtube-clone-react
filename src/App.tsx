@@ -1,14 +1,17 @@
 import React from "react";
 import Header from "./components/Header";
-import VideoList from "./components/VideoList";
-
-
+import SideBar from "./components/SideBar";
+import styles from "./App.module.scss";
+import Main from "./components/Main";
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.appComponent}>
       <Header></Header>
-      <VideoList></VideoList>
+      <div className={styles.mainContent}>
+        <SideBar></SideBar>
+        <Main></Main>
+      </div>
     </div>
   );
 }

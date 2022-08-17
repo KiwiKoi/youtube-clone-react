@@ -1,0 +1,31 @@
+@use "../../styles/variables" as variables;
+
+.sidebarComponent {
+    position: fixed;
+  background-color: variables.$menu-background-color;
+  order: 1;
+  flex-basis: auto;
+  height: 100vh;
+
+  .menuContent {
+    .menuEntry {
+      display: flex;
+      height: 5rem;
+      width: 5rem;
+      .entryContent {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        img {
+          height: 2rem;
+          width: 2rem;
+        }
+        span {
+          font-size: 0.875rem;
+        }
+      }
+    }
+  }
+}

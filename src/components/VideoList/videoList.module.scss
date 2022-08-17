@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex-basis: auto;
+    order: 2;
     gap: 1rem;
     justify-content: center;
 }

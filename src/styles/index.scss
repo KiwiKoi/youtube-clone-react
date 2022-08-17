@@ -8,4 +8,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: variables.$main-background-color;
+
+  a {
+    color: white;
+    text-decoration: none;
+    text-decoration-style: none;
+  }
 }
